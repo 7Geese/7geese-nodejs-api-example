@@ -37,7 +37,12 @@ You will be given a client ID and a client secret which you should paste into a 
 Check how to show hidden files in your operating system, if you don’t see the example file.
 
 ## Test the authentication
-Additionally, the script requires your user name and password to login. Both should be put into the file `.venv`.
+Additionally, the script requires your email address and password to login. Both should be put into the file `.venv`.
+
+```
+USER_EMAIL=bruce@7geese.com
+USER_PASSWORD=I must not use weak passwords!
+```
 
 ## Execution
 To run the script run
