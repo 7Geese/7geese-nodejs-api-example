@@ -5,9 +5,14 @@
 
 To automatically track the progress of your OKRs in other applications, you might want to write a script for integrating the two services. You might also want to use data in 7Geese on other platforms, like data analysis dashboards.
 
-While 7Geese might decide that your integration is not requested by enough users to develop it, this repository can help you to make it happen!
+While 7Geese might decide that your integration is not requested by enough users to develop it using [7Geese’s RESTful APIs](https://support.7geese.com/hc/en-us/articles/206301887-API-App-Integrations#restful-apis). This repository can help you to make it happen!
 
-If there are any questions or issue, please file them [here](https://github.com/jaller94/7geese-nodejs-auth-example/issues) or send me a Pull Request. I love every interaction with my projects!
+If there are any questions or issue, please [file an issue](https://github.com/jaller94/7geese-nodejs-auth-example/issues) or send me a Pull Request. I love every interaction with my projects!
+
+## Limitations
+* You need a 7Geese account.
+* Your network must use password authentication.
+  * Support for external login providers might be added later. It’s possible using an authorization code grant.
 
 ## Installation
 I assume basic knowledge of [Node.js](https://nodejs.org/) and how to run a project.
@@ -23,7 +28,7 @@ npm install
 
 First, you need to register a new application at https://app.7geese.com/account/applications/.
 
-Pick the authorization grant type “Resource owner password-based” and the redirect uri “https://localhost:8001”.
+Pick the authorization grant type “Resource owner password-based” and the redirect URI “https://localhost:8001”.
 
 ![](docs/images/new-test-application.png)
 
