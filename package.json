@@ -1,20 +1,21 @@
 {
-    "name": "7geese-nodejs-auth-example",
+    "name": "7geese-nodejs-api-example",
     "version": "0.0.0",
     "description": "An example of using the 7Geese API with Node.js",
+    "private": true,
     "scripts": {
         "start": "node src/index.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jaller94/7geese-nodejs-auth-example.git"
+        "url": "git+https://github.com/7Geese/7geese-nodejs-api-example.git"
     },
     "author": "Christian Paul",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jaller94/7geese-nodejs-auth-example/issues"
+        "url": "https://github.com/7Geese/7geese-nodejs-api-example/issues"
     },
-    "homepage": "https://github.com/jaller94/7geese-nodejs-auth-example#readme",
+    "homepage": "https://github.com/7Geese/7geese-nodejs-api-example#readme",
     "dependencies": {
         "dotenv": "^6.2.0",
         "superagent": "^4.1.0"
